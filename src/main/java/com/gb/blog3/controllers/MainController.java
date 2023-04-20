@@ -18,7 +18,7 @@ public class MainController {
 
     @GetMapping("/about")
     public String about(Model model) {
-        model.addAttribute("title", "Главная страница");
-        return "home";
+        model.addAttribute("title", "Cтраница про нас");
+        return "about";
     }
 }
